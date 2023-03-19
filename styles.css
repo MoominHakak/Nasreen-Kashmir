@@ -27,16 +27,19 @@
 }
 
 .navbar-links li a {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font:bold;
   display: block;
   text-decoration: none;
   color: black;
-  padding: 0.625rem;
+  padding: 1.925rem;
   transition: all 0.3s ease;
 }
 
 .navbar-links li:hover {
   
-  padding-top: 0.5rem;
+  padding-top: 0.3rem;
 }
 
 .toggle-button {
@@ -98,7 +101,7 @@
   width: 1.25rem;
   height: 1.25rem;
   margin-left: 0.31rem;
-  color: #7a694f;
+  color: #000000;
   text-decoration: none;
 }
 
