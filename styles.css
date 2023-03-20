@@ -186,6 +186,11 @@ main {
   grid-gap: 0.625rem;
   margin-top: 2rem;
 }
+@media (max-width: 50rem) {
+  .featured{
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
 
 .product {
   background-color: #f5f5f5;
@@ -209,15 +214,31 @@ main {
   margin-bottom: 0.625rem;
   font-weight: bold;
 }
+h2{
+  text-align: center;;
+}
+.what-we-do{
+text-align: center;
+font-size: large;
+}
 
 .animatedcard{
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.625rem;
-  margin-top: 2rem
+  margin-top: 3rem
 
 }
+@media (max-width: 50rem) {
+  .animatedcard{
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 3rem;
+  padding-bottom: 3rem;
+  }
+}
+
+
 .containercard{
 	max-width: 1170px;
 	margin:auto;
@@ -234,8 +255,8 @@ ul{
 }
 
 .containercard {
-  width: 350px;
-  height: 500px;
+  width: 320px;
+  height: 480px;
   perspective: 800px;
 }
 
@@ -253,15 +274,16 @@ ul{
 .card2 .front .card-text,
 .card3 .front .card-text
  {
-  font-size: xx-large;
+  white-space: nowrap;
+  font: bold normal 2.3rem Helvetica, Arial, sans-serif;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  
+  display: flex;
+  justify-content: space-between;
   transform: translate(-50%, -50%);
   z-index: 1;
-  color:black;
-  text-align: center;
+  color: #dfa700; 
+ top: 8%;
+ left: 50%; 
 }
 
 .card1,
@@ -293,13 +315,29 @@ ul{
 }
 
 .back {
-  background-color: #3a3a3a;
+  background-color: rgba(236,214,183,100);
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5rem;
+}
+.back h1{
+  color: #333;
+  justify-content: center;
+}
+
+.card1 .back p,
+.card2 .back p,
+.card3 .back p{
+  display: flex;
+  color:#333;
+  font-size: 18px;
+  line-height: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
 }
 
 
@@ -418,6 +456,8 @@ ul{
   color: #bbbbbb;
   text-align: center;
 }
+
+
 
 
 
