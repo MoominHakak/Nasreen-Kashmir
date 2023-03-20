@@ -366,7 +366,7 @@ ul{
   box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.1); 
 
 }
-p a {
+/*p a {
   display: inline-block;
   padding: 10px 20px;
   background-color: #F9A11B;
@@ -378,7 +378,7 @@ p a {
 
 p a:hover {
   background-color: #333;
-}
+}*/
 
 .footer{
 	background-color: #24262b;
