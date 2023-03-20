@@ -227,7 +227,7 @@ font-size: large;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.625rem;
-  margin-top: 2rem
+  margin-top: 3rem
 
 }
 @media (max-width: 50rem) {
@@ -274,16 +274,16 @@ ul{
 .card2 .front .card-text,
 .card3 .front .card-text
  {
-
-  font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  font: bold normal 2.3rem Helvetica, Arial, sans-serif;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  display: flex;
+  justify-content: space-between;
   transform: translate(-50%, -50%);
   z-index: 1;
-  text-shadow: 4px 4px 5px black;
-  color:#dfa700  ;
-  text-align: center;
+  color: #dfa700; 
+ top: 8%;
+ left: 50%; 
 }
 
 .card1,
