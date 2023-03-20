@@ -358,12 +358,26 @@ ul{
   text-align: justify;
   text-justify: inter-word;
   padding-right: 10px;
-  border-left: 5px solid #F9A11B; /* adds a left border with the same color as navbar */
-  padding-left: 19px; /* adds some padding to the left of the paragraph */
-  background-color: #e6e5db; /* adds a light gray background color */
-  border-radius: 4px; /* rounds the corners of the paragraph */
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); /* adds a subtle shadow */
-  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.1); /* adds a subtle shadow from the top and bottom */
+  border-left: 5px solid #F9A11B;
+  padding-left: 19px;
+  background-color: #e6e5db; 
+  border-radius: 4px; 
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1), 0px 3px 5px rgba(0, 0, 0, 0.1); 
+
+}
+p a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F9A11B;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+p a:hover {
+  background-color: #333;
 }
 
 .footer{
