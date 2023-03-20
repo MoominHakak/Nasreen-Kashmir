@@ -233,6 +233,8 @@ font-size: large;
 @media (max-width: 50rem) {
   .animatedcard{
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 3rem;
+  padding-bottom: 3rem;
   }
 }
 
